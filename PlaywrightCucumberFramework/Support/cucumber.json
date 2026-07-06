@@ -1,0 +1,16 @@
+{
+    "default": {
+        "formatOptions":{
+            "snippet Interface": "async-await"
+        },
+        "path": [
+        "src/tests/features/"
+        ] ,
+        "publishQuiet": true,
+        "dry-run": true,
+        "require": [
+            "./tests/loginpage.spec.ts"],
+            "requireModule": [ "ts-node/register"]
+    
+    }
+}
