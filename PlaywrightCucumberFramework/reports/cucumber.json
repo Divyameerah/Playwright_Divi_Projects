@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 893399
+              "duration": 1864999
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6522563700
+              "duration": 6791947799
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2053717599
+              "duration": 1779014400
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "I should see the Accounts Overview page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:30"
+              "location": "step-definitions\\LoginSteps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 847884399
+              "duration": 326789899
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 277100
+              "duration": 391400
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 129600
+              "duration": 334899
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5017027400
+              "duration": 5179243000
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 10,
             "name": "I login with invalid credentials",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:48"
+              "location": "step-definitions\\LoginSteps.ts:53"
             },
             "result": {
               "status": "passed",
-              "duration": 836961100
+              "duration": 2170430500
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 11,
             "name": "I should see an error message",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:52"
+              "location": "step-definitions\\LoginSteps.ts:57"
             },
             "result": {
               "status": "passed",
-              "duration": 842499299
+              "duration": 839279900
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 395900
+              "duration": 198199
             }
           }
         ],
@@ -157,7 +157,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 327199
+              "duration": 136399
             }
           },
           {
@@ -170,20 +170,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5026000800
+              "duration": 3611289300
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 5,
-            "name": "I login with valid credentials",
+            "name": "I log in with valid credentials",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:26"
+              "location": "step-definitions\\LoginSteps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 1872333300
+              "duration": 1572716000
             }
           },
           {
@@ -192,25 +192,11 @@
             "line": 8,
             "name": "I should see the Accounts Overview page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:30"
+              "location": "step-definitions\\LoginSteps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 841241399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I should see a list of accounts",
-            "match": {
-              "location": "step-definitions\\LoginSteps.ts:35"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 14240600,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at captureRawStack (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeGreaterThan (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\step-definitions\\LoginSteps.ts:37:17)"
+              "duration": 849092000
             }
           },
           {
@@ -218,7 +204,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 561099
+              "duration": 525200
             }
           }
         ],
@@ -229,7 +215,7 @@
         "description": "",
         "id": "accounts-overview;navigate-to-account-details",
         "keyword": "Scenario",
-        "line": 11,
+        "line": 10,
         "name": "Navigate to Account Details",
         "steps": [
           {
@@ -237,7 +223,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 460000
+              "duration": 213199
             }
           },
           {
@@ -250,47 +236,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5284720799
+              "duration": 8031850599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 5,
-            "name": "I login with valid credentials",
+            "name": "I log in with valid credentials",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:26"
+              "location": "step-definitions\\LoginSteps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2111403099
+              "duration": 2388565999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
+            "line": 11,
             "name": "I click on the first account",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:40"
+              "location": "step-definitions\\LoginSteps.ts:44"
             },
             "result": {
               "status": "passed",
-              "duration": 2526732899
+              "duration": 3692579200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
+            "line": 12,
             "name": "I should see the Account Details page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:44"
+              "location": "step-definitions\\LoginSteps.ts:48"
             },
             "result": {
-              "status": "failed",
-              "duration": 74584600,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1.title')\nExpected substring: \u001b[32m\"Account Details\"\u001b[39m\nError: strict mode violation: locator('h1.title') resolved to 3 elements:\n    1) <h1 class=\"title\">Account Details</h1> aka getByRole('heading', { name: 'Account Details' })\n    2) <h1 class=\"title\">Account Activity</h1> aka getByRole('heading', { name: 'Account Activity' })\n    3) <h1 class=\"title\">Error!</h1> aka getByText('Error!')\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1.title')\u001b[22m\n\n    at captureRawStack (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toContainText (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\step-definitions\\LoginSteps.ts:45:51)"
+              "status": "passed",
+              "duration": 36190099
             }
           },
           {
@@ -298,7 +283,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 355400
+              "duration": 172100
             }
           }
         ],
