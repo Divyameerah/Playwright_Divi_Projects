@@ -1,11 +1,12 @@
 Feature: Parabank Login
 
   Scenario: Successful login
-    Given I am on the Parabank login page
-    When I login with valid credentials
+    Given I open the Parabank login page
+    And I log in with valid credentials
     Then I should see the Accounts Overview page
 
   Scenario: Invalid login
-    Given I am on the Parabank login page
-    When I login with invalid credentials
+    Given I open the Parabank login page
+    And I log in with invalid credentials
     Then I should see an error message
+

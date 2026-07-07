@@ -14,7 +14,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 623000
+              "duration": 145689800
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 216699
             }
           },
           {
@@ -23,11 +31,11 @@
             "line": 4,
             "name": "I open the Parabank login page",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:18"
+              "location": "step-definitions\\Login.steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 1807831799
+              "duration": 6079268000
             }
           },
           {
@@ -36,11 +44,11 @@
             "line": 5,
             "name": "I log in with valid credentials",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:34"
+              "location": "step-definitions\\Login.steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 787438500
+              "duration": 1105691399
             }
           },
           {
@@ -49,11 +57,24 @@
             "line": 8,
             "name": "I should see the Accounts Overview page",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:38"
+              "location": "step-definitions\\Login.steps.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 62865099
+              "duration": 56816500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see a list of accounts",
+            "match": {
+              "location": "step-definitions\\accounts.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4116599
             }
           },
           {
@@ -61,7 +82,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 394000
+              "duration": 248500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 86510299
             }
           }
         ],
@@ -72,7 +101,7 @@
         "description": "",
         "id": "accounts-overview;navigate-to-account-details",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 11,
         "name": "Navigate to Account Details",
         "steps": [
           {
@@ -80,7 +109,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 229800
+              "duration": 161605899
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 180600
             }
           },
           {
@@ -89,11 +126,11 @@
             "line": 4,
             "name": "I open the Parabank login page",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:18"
+              "location": "step-definitions\\Login.steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 1827891300
+              "duration": 3658155700
             }
           },
           {
@@ -102,37 +139,37 @@
             "line": 5,
             "name": "I log in with valid credentials",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:34"
+              "location": "step-definitions\\Login.steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 714577499
+              "duration": 1778152000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 11,
+            "line": 12,
             "name": "I click on the first account",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:48"
+              "location": "step-definitions\\accounts.steps.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1379293900
+              "duration": 1386033799
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
+            "line": 13,
             "name": "I should see the Account Details page",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:52"
+              "location": "step-definitions\\accounts.steps.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 25580200
+              "duration": 31044900
             }
           },
           {
@@ -140,7 +177,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 133199
+              "duration": 172300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 90180399
             }
           }
         ],
@@ -170,33 +215,41 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 109699
+              "duration": 134916900
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 146999
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I am on the Parabank login page",
+            "name": "I open the Parabank login page",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:18"
+              "location": "step-definitions\\Login.steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 1362235899
+              "duration": 2396528299
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 5,
-            "name": "I login with valid credentials",
+            "name": "I log in with valid credentials",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:30"
+              "location": "step-definitions\\Login.steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 758998499
+              "duration": 767713400
             }
           },
           {
@@ -205,11 +258,11 @@
             "line": 6,
             "name": "I should see the Accounts Overview page",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:38"
+              "location": "step-definitions\\Login.steps.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 45685299
+              "duration": 68712799
             }
           },
           {
@@ -217,7 +270,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 166299
+              "duration": 148199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89469599
             }
           }
         ],
@@ -236,33 +297,41 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 117499
+              "duration": 154306199
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156299
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 9,
-            "name": "I am on the Parabank login page",
+            "name": "I open the Parabank login page",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:18"
+              "location": "step-definitions\\Login.steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 1847066899
+              "duration": 4495709500
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 10,
-            "name": "I login with invalid credentials",
+            "name": "I log in with invalid credentials",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:56"
+              "location": "step-definitions\\Login.steps.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 733977599
+              "duration": 744474899
             }
           },
           {
@@ -271,11 +340,11 @@
             "line": 11,
             "name": "I should see an error message",
             "match": {
-              "location": "step-definitions\\Login.steps.ts:60"
+              "location": "step-definitions\\Login.steps.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 64714200
+              "duration": 63246100
             }
           },
           {
@@ -283,7 +352,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 699800
+              "duration": 707999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91015199
             }
           }
         ],
