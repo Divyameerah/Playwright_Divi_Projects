@@ -1,27 +1,13 @@
 {
-  "name": "playwrightcucumberframework",
+  "name": "parabank-cucumber-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {"test":"cucumber-js",
-  "smoke":"cucumber-js --tags @Smoke",
-  "regression":"cucumber-js --tags @Regression",
-  "parallel":"cucumber-js --parallel 4"
-},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "@playwright/test": "^1.61.1",
-    "@types/node": "^26.1.0",
-    "allure-cucumberjs": "^3.10.2",
-    "ts-node": "^10.9.2",
-    "tsconfig-paths": "^4.2.0",
-    "typescript": "^6.0.3"
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require step-definitions/**/*.ts features/**/*.feature"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^13.0.0",
-    "playwright": "^1.61.1"
+    "@cucumber/cucumber": "^10.0.0",
+    "playwright": "^1.45.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.0"
   }
 }

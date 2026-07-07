@@ -6,31 +6,22 @@
         "description": "",
         "id": "orangehrm-login;successful-login",
         "keyword": "Scenario",
-        "line": 7,
+        "line": 3,
         "name": "Successful login",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 298316400
+              "status": "failed",
+              "duration": 5031569000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "user is on the login page",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
             "name": "I open the OrangeHRM login page",
             "match": {
               "location": "step-definitions\\LoginSteps.ts:14"
@@ -43,7 +34,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
+            "line": 5,
             "name": "I login with valid credentials",
             "match": {
               "location": "step-definitions\\LoginSteps.ts:21"
@@ -56,10 +47,13 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
-            "name": "I should see the dashboard page",
+            "line": 6,
+            "name": "I should see the dashboard",
+            "match": {
+              "location": "step-definitions\\LoginSteps.ts:25"
+            },
             "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -68,16 +62,11 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 293869300
+              "duration": 191795600
             }
           }
         ],
-        "tags": [
-          {
-            "name": "@Smoke",
-            "line": 6
-          }
-        ],
+        "tags": [],
         "type": "scenario"
       }
     ],
