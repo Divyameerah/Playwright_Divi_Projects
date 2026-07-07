@@ -4,149 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "parabank-login;successful-login",
-        "keyword": "Scenario",
-        "line": 3,
-        "name": "Successful login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1864999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "I open the Parabank login page",
-            "match": {
-              "location": "step-definitions\\LoginSteps.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6791947799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "I login with valid credentials",
-            "match": {
-              "location": "step-definitions\\LoginSteps.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1779014400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "I should see the Accounts Overview page",
-            "match": {
-              "location": "step-definitions\\LoginSteps.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 326789899
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 391400
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "parabank-login;invalid-login",
-        "keyword": "Scenario",
-        "line": 8,
-        "name": "Invalid login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 334899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 9,
-            "name": "I open the Parabank login page",
-            "match": {
-              "location": "step-definitions\\LoginSteps.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5179243000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "I login with invalid credentials",
-            "match": {
-              "location": "step-definitions\\LoginSteps.ts:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2170430500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "I should see an error message",
-            "match": {
-              "location": "step-definitions\\LoginSteps.ts:57"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 839279900
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 198199
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "parabank-login",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Parabank Login",
-    "tags": [],
-    "uri": "features\\Login.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "accounts-overview;view-accounts-overview",
         "keyword": "Scenario",
         "line": 7,
@@ -157,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 136399
+              "duration": 1152700
             }
           },
           {
@@ -166,11 +23,11 @@
             "line": 4,
             "name": "I open the Parabank login page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:18"
+              "location": "step-definitions\\Login.steps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3611289300
+              "duration": 14115599799
             }
           },
           {
@@ -179,11 +36,11 @@
             "line": 5,
             "name": "I log in with valid credentials",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:30"
+              "location": "step-definitions\\Login.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 1572716000
+              "duration": 1869696000
             }
           },
           {
@@ -192,11 +49,11 @@
             "line": 8,
             "name": "I should see the Accounts Overview page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:34"
+              "location": "step-definitions\\Login.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 849092000
+              "duration": 238954399
             }
           },
           {
@@ -204,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 525200
+              "duration": 440200
             }
           }
         ],
@@ -223,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 213199
+              "duration": 868900
             }
           },
           {
@@ -232,11 +89,11 @@
             "line": 4,
             "name": "I open the Parabank login page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:18"
+              "location": "step-definitions\\Login.steps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 8031850599
+              "duration": 5078041799
             }
           },
           {
@@ -245,11 +102,11 @@
             "line": 5,
             "name": "I log in with valid credentials",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:30"
+              "location": "step-definitions\\Login.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 2388565999
+              "duration": 1864894500
             }
           },
           {
@@ -258,11 +115,11 @@
             "line": 11,
             "name": "I click on the first account",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:44"
+              "location": "step-definitions\\Login.steps.ts:44"
             },
             "result": {
               "status": "passed",
-              "duration": 3692579200
+              "duration": 2375354299
             }
           },
           {
@@ -271,11 +128,12 @@
             "line": 12,
             "name": "I should see the Account Details page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:48"
+              "location": "step-definitions\\Login.steps.ts:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 36190099
+              "status": "failed",
+              "duration": 35472900,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1.title')\nExpected substring: \u001b[32m\"Account Details\"\u001b[39m\nError: strict mode violation: locator('h1.title') resolved to 3 elements:\n    1) <h1 class=\"title\">Account Details</h1> aka getByRole('heading', { name: 'Account Details' })\n    2) <h1 class=\"title\">Account Activity</h1> aka getByRole('heading', { name: 'Account Activity' })\n    3) <h1 class=\"title\">Error!</h1> aka getByText('Error!')\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1.title')\u001b[22m\n\n    at captureRawStack (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toContainText (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\step-definitions\\Login.steps.ts:49:51)"
             }
           },
           {
@@ -283,7 +141,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 172100
+              "duration": 256600
             }
           }
         ],
@@ -297,5 +155,149 @@
     "name": "Accounts Overview",
     "tags": [],
     "uri": "features\\accounts.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "parabank-login;successful-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Parabank login page",
+            "match": {
+              "location": "step-definitions\\Login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4190663799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "step-definitions\\Login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1709631200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the Accounts Overview page",
+            "match": {
+              "location": "step-definitions\\Login.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 854885099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 860700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-login;invalid-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 315699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the Parabank login page",
+            "match": {
+              "location": "step-definitions\\Login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5623488199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login with invalid credentials",
+            "match": {
+              "location": "step-definitions\\Login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1943215999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see an error message",
+            "match": {
+              "location": "step-definitions\\Login.steps.ts:56"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 842679700,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: \u001b[32m/error|could not be verified|logged|incorrect/i\u001b[39m\nReceived string:  \u001b[31m\"Experience the difference·\u001b[39m\n\u001b[31mSolutions\u001b[39m\n\u001b[31mAbout Us\u001b[39m\n\u001b[31mServices\u001b[39m\n\u001b[31mProducts\u001b[39m\n\u001b[31mLocations\u001b[39m\n\u001b[31mAdmin Page\u001b[39m\n\u001b[31mhome\u001b[39m\n\u001b[31mabout\u001b[39m\n\u001b[31mcontact·\u001b[39m\n\u001b[31mWelcome John Smith·\u001b[39m\n\u001b[31mAccount Services\u001b[39m\n\u001b[31mOpen New Account\u001b[39m\n\u001b[31mAccounts Overview\u001b[39m\n\u001b[31mTransfer Funds\u001b[39m\n\u001b[31mBill Pay\u001b[39m\n\u001b[31mFind Transactions\u001b[39m\n\u001b[31mUpdate Contact Info\u001b[39m\n\u001b[31mRequest Loan\u001b[39m\n\u001b[31mLog Out\u001b[39m\n\u001b[31mAccounts Overview\u001b[39m\n\u001b[31mAccount\tBalance*\tAvailable Amount\u001b[39m\n\u001b[31m*Balance includes deposits that may be subject to holds\u001b[39m\n\u001b[31mHome|\u001b[39m\n\u001b[31mAbout Us|\u001b[39m\n\u001b[31mServices|\u001b[39m\n\u001b[31mProducts|\u001b[39m\n\u001b[31mLocations|\u001b[39m\n\u001b[31mForum|\u001b[39m\n\u001b[31mSite Map|\u001b[39m\n\u001b[31mContact Us·\u001b[39m\n\u001b[31m© Parasoft. All rights reserved.·\u001b[39m\n\u001b[31mVisit us at:\u001b[39m\n\u001b[31mwww.parasoft.com\"\u001b[39m\n    at captureRawStack (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toMatch (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\step-definitions\\Login.steps.ts:58:20)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 363499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "parabank-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Parabank Login",
+    "tags": [],
+    "uri": "features\\login.feature"
   }
 ]
