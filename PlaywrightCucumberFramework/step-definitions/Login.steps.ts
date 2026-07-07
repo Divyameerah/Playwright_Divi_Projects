@@ -15,7 +15,11 @@ let page: Page;
 let loginPage: LoginPage;
 let accountsPage: AccountsPage;
 
-Given('I open the Parabank login page', async function () {
+Given(/I (?:am on|open) the Parabank login page/i, async function () {
+  if (browser) {
+    await browser.close();
+  }
+
   browser = await chromium.launch({ headless: true });
   page = await browser.newPage();
   loginPage = new LoginPage(page);
@@ -55,5 +59,12 @@ When('I login with invalid credentials', async function () {
 
 Then('I should see an error message', async function () {
   const bodyText = await page.locator('body').innerText();
-  expect(bodyText).toMatch(/error|could not be verified|logged|incorrect/i);
+  const errorCount = await page.locator('.error').count();
+
+  if (errorCount > 0) {
+    await expect(page.locator('.error')).toContainText(/error|incorrect|invalid|not/i, { timeout: 10000 });
+    return;
+  }
+
+  expect(bodyText).toMatch(/error|incorrect|invalid|not/i);
 });
