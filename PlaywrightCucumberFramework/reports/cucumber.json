@@ -4,7 +4,7 @@
     "elements": [
       {
         "description": "",
-        "id": "orangehrm-login;successful-login",
+        "id": "parabank-login;successful-login",
         "keyword": "Scenario",
         "line": 3,
         "name": "Successful login",
@@ -13,22 +13,21 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 5031569000,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+              "status": "passed",
+              "duration": 688300
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I open the OrangeHRM login page",
+            "name": "I open the Parabank login page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:14"
+              "location": "step-definitions\\LoginSteps.ts:18"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4986217899
             }
           },
           {
@@ -37,24 +36,25 @@
             "line": 5,
             "name": "I login with valid credentials",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:21"
+              "location": "step-definitions\\LoginSteps.ts:26"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 901455699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I should see the dashboard",
+            "name": "I should see the Accounts Overview page",
             "match": {
-              "location": "step-definitions\\LoginSteps.ts:25"
+              "location": "step-definitions\\LoginSteps.ts:30"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "failed",
+              "duration": 5008877100,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
             }
           },
           {
@@ -62,7 +62,74 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 191795600
+              "duration": 663099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-login;invalid-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 400399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the Parabank login page",
+            "match": {
+              "location": "step-definitions\\LoginSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4991695600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login with invalid credentials",
+            "match": {
+              "location": "step-definitions\\LoginSteps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 729954899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see an error message",
+            "match": {
+              "location": "step-definitions\\LoginSteps.ts:39"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5005336600,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Divya\\Divya Learning\\Playwright\\PlaywrightCucumberFramework\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 340400
             }
           }
         ],
@@ -70,10 +137,10 @@
         "type": "scenario"
       }
     ],
-    "id": "orangehrm-login",
+    "id": "parabank-login",
     "line": 1,
     "keyword": "Feature",
-    "name": "OrangeHRM Login",
+    "name": "Parabank Login",
     "tags": [],
     "uri": "features\\Login.feature"
   }
